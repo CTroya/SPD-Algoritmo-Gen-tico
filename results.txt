@@ -1,0 +1,42 @@
+Tamaño de datos: Pequeño
+Tiempo de ejecución: 0.178337 segundos
+-----------------------------------
+Tamaño de datos: Grande
+Tiempo de ejecución: 49.2964 segundos
+-----------------------------------
+Tamaño de datos: Pequeño
+Tiempo de ejecución: 0.189688 segundos
+-----------------------------------
+Tamaño de datos: Grande
+Tiempo de ejecución: 53.2085 segundos
+-----------------------------------
+Tamaño de datos: Grande
+Tiempo de ejecución: 56.7107 segundos
+-----------------------------------
+Tamaño de datos: Mediano
+Tiempo de ejecución: 2.85162 segundos
+-----------------------------------
+Tamaño de datos: Mediano
+Tiempo de ejecución: 2.80205 segundos
+-----------------------------------
+Tamaño de datos: Pequeño
+Tiempo de ejecución: 0.168085 segundos
+-----------------------------------
+Tamaño de datos: Mediano
+Tiempo de ejecución: 2.74463 segundos
+-----------------------------------
+Tamaño de datos: Mediano
+Tiempo de ejecución: 5.31914 segundos
+-----------------------------------
+Tamaño de datos: Grande
+Tiempo de ejecución: 74.8598 segundos
+-----------------------------------
+Tamaño de datos: Mediano
+Tiempo de ejecución: 5.13567 segundos
+-----------------------------------
+Tamaño de datos: Grande
+Tiempo de ejecución: 74.2593 segundos
+-----------------------------------
+Tamaño de datos: Grande
+Tiempo de ejecución: 79.5877 segundos
+-----------------------------------
