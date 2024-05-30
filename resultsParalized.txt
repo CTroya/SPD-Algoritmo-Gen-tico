@@ -1,9 +1,9 @@
 Tamaño de datos: Grande
-Tiempo de ejecución: 49.2964 segundos
+Tiempo de ejecución: 39.233212 segundos
 -----------------------------------
 Tamaño de datos: pequeno
-Tiempo de ejecución: 0.189688 segundos
+Tiempo de ejecución: 0.151643 segundos
 -----------------------------------
 Tamaño de datos: Mediano
-Tiempo de ejecución: 2.85162 segundos
+Tiempo de ejecución: 2.323123 segundos
 -----------------------------------

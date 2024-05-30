@@ -12,11 +12,11 @@ def parse_results(filename):
             times.append(time)
     return sizes, times
 
-def plot_results(sizes, times):
-    size_map = {'Pequeño': 100, 'Mediano': 1000, 'Grande': 10000}
+def plot_results(sizes, times,title):
+    size_map = {'pequeno': 100, 'Mediano': 1000, 'Grande': 10000}
     sizes_numeric = [size_map[size] for size in sizes]
     
-    plt.figure(figsize=(10, 5))
+    plt.figure(figsize=(10, 5),num=title)
     
     # Gráfico de tiempo de ejecución
     plt.subplot(1, 2, 1)
@@ -25,13 +25,12 @@ def plot_results(sizes, times):
     plt.xlabel('Tamaño de Datos')
     plt.ylabel('Tiempo (segundos)')
     plt.xscale('log')
-    
     # Gráfico de speedup
-    baseline_time = times[0]  # Tiempo de ejecución para el tamaño más pequeño
+    baseline_time = times[0]  # Tiempo de ejecución para el tamaño más pequeno
     speedups = [baseline_time / time for time in times]
     plt.subplot(1, 2, 2)
     plt.plot(sizes_numeric, speedups, marker='o')
-    plt.title('Speedup')
+    plt.title('Tiempo de ejecución')
     plt.xlabel('Tamaño de Datos')
     plt.ylabel('Speedup')
     plt.xscale('log')
@@ -40,6 +39,9 @@ def plot_results(sizes, times):
     plt.show()
 
 if __name__ == "__main__":
-    filename = 'results.txt'
-    sizes, times = parse_results(filename)
-    plot_results(sizes, times)
+    filename = "results.txt"
+    filename1 = "resultsParalized.txt"
+    sizes, times  = parse_results(filename)
+    sizes1, times1 = parse_results(filename1)
+    plot_results(sizes, times,title="Resultados Secuenciales")
+    plot_results(sizes1, times1, title="Resultados Paralelizados")

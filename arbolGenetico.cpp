@@ -147,7 +147,7 @@ int main() {
     int no_improvement_generations = 0;
 
     std::cout << "Seleccione el tamaño de los datos:\n";
-    std::cout << "1. Pequeño\n";
+    std::cout << "1. pequeno\n";
     std::cout << "2. Mediano\n";
     std::cout << "3. Grande\n";
     int choice;
@@ -167,7 +167,7 @@ int main() {
             generations = 300;
             break;
         default:
-            std::cout << "Opción no válida. Usando tamaño pequeño por defecto.\n";
+            std::cout << "Opción no válida. Usando tamaño pequeno por defecto.\n";
             population_size = 100;
             generations = 100;
             break;
@@ -228,7 +228,7 @@ int main() {
     // Escribir los resultados en un archivo
     std::ofstream results_file;
     results_file.open("results.txt", std::ios::app);
-    results_file << "Tamaño de datos: " << (choice == 1 ? "Pequeño" : (choice == 2 ? "Mediano" : "Grande")) << "\n";
+    results_file << "Tamaño de datos: " << (choice == 1 ? "pequeno" : (choice == 2 ? "Mediano" : "Grande")) << "\n";
     results_file << "Tiempo de ejecución: " << elapsed.count() << " segundos\n";
     results_file << "-----------------------------------\n";
     results_file.close();
