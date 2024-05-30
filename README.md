@@ -305,3 +305,4 @@ El algoritmo genético paralelizado mostró mejoras significativas en el tiempo 
 #### B. Resultados de Performance con `perf`
 
 #### C. Gráficos de Speedup y Eficiencia
+Los graficos se pueden generar con el codigo en python proveído
