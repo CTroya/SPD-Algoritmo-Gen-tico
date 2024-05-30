@@ -1,4 +1,4 @@
-
+# Trabajo Realizado por Kevin March y Carlos Troya
 #### 1. Introducción
 Este informe detalla la implementación de un algoritmo genético paralelizado utilizando OpenMP, su evaluación de rendimiento mediante la herramienta `perf` y la visualización de los resultados a través de gráficos de speedup y eficiencia.
 
